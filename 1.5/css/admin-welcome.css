@@ -1,0 +1,146 @@
+/* ==========================================================================
+   Welcome / Getting Started page
+   ========================================================================== */
+
+#wpwrap #wpcontent{
+    background-color: #fff;
+}
+.about-wrap{
+    max-width: 100%;
+}
+.oxi-addons-wrapper{
+    width: 100%;
+    float: none;
+    position: relative;
+    display: flex;
+}
+ul.oxilab-admin-menu {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+.about-wrap .image-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0 0;
+    width: 150px;
+}
+
+.about-wrap .image-badge .version {
+    display: block;
+    margin: 0 auto;
+    margin: 5px auto 0 auto;
+}
+
+.about-wrap .feature-section p {
+    font-size: 15px;
+    margin-left: 0;
+    max-width: 100%;
+}
+.about-wrap .feature-section strong {
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: #343EA8;
+}
+.about-wrap .image-features-button {
+    font-size: 16px;
+    height: auto;
+    padding: 8px 25px;
+    margin-top: 20px;
+}
+.about-container {
+    position: relative;
+    max-width: 100%;
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+.about-addons-videos {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    box-shadow: 1px 4px 27px rgba(0, 0, 0, 0.5);
+}
+.about-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.oxi-addons-doc-heading{
+    width: 100%;
+    text-align: center;
+    font-size: 44px;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%,rgba(110,70,184,1.00) 0%,rgba(50,62,168,1.00) 100%);
+    padding: 80px 20px;
+    margin: 50px 0 20px 0;
+    font-weight: 600;
+}
+.oxi-addons-docs{
+    width: calc(33.33% - 30px);
+    float: left;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.15) 0 3px 12px;
+    border: none;
+    margin: 15px!important;
+    border-radius: 4px;
+    font-family: "Open Sans";
+}
+.oxi-addons-docs h3{
+    padding: 15px 15px 15px 15px;
+    margin:  0 0 0 0;
+    font-size: 20px;
+    line-height: 1;
+    text-decoration: none;
+    color: #343EA8;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.oxi-addons-docs h3 .dashicons-portfolio{
+    color: #343EA8;
+    width: 26px;
+    height: 26px;
+    font-size: 26px;
+    margin-right: 5px;
+}
+
+.oxi-addons-docs .oxi-inside{
+    padding: 15px;
+    min-height: 60px;
+}
+.oxi-addons-docs  .oxi-inside-sections{
+    padding: 0;
+    list-style-type: disc;
+    margin: 0 0 20px 0px;
+    list-style: disc;
+}
+.oxi-addons-docs  .oxi-inside-sections li{
+    margin: 10px;
+    list-style: none;
+}
+.oxi-addons-docs  .oxi-inside-sections li a{
+    text-decoration: none;
+    color: #4d4d4d;
+    font-weight: 400;
+    font-size: 16px; 
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    line-height: 1.2;
+}
+.oxi-addons-docs  .oxi-inside-sections li a:hover{
+    color: #6D45B8;
+    font-weight: 600;
+}
+.oxi-addons-docs  .oxi-inside-sections li .dashicons{
+    margin-right: 5px;
+}.oxilab-admin-wrapper.about-wrap{
+    position: relative;
+}
